@@ -1,10 +1,6 @@
 release/
 .laya/settings.json
 /.laya/settings.json
-/bin/**/
-/bin/fileconfig.json
-/bin/unpack.json
-!/bin/libs
 /src/GameConfig.ts
 .laya/wxgame.json
 .laya/web.json
