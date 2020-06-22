@@ -52,6 +52,10 @@ P 79CD4CB3 horsenum_03.png
 P 0963B9E9 horsenum_04.png
 P 06EB1A5A horsenum_05.png
 P 55D4B22E horsenum_06.png
+D images
+P 3D28B499 buttonempty_01.png
+P B017E53E progress$bar.png
+P C05839CD progress.png
 D Track
 P 06D5619B horsesign_01.png
 P 98D871A2 horsesign_02.png
