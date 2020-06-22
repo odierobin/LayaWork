@@ -41,8 +41,8 @@
 				"name":"specularTexture",
 				"path":"../_Textures/Metal1.png",
 				"constructParams":[
-					1024,
-					1024,
+					256,
+					256,
 					1,
 					true
 				],
