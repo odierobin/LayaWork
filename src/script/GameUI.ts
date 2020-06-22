@@ -112,7 +112,7 @@ export default class GameUI extends Laya.Scene{
                         // Laya.Scene.open('entry/homeScene.json')
                         this.progressBar.visible = true
                         this.btnGoto.toggleCooldown(true)
-                        Laya.loader.create("res/ruins/laya_01.ls", Laya.Handler.create(this, () => {
+                        Laya.loader.create("res/ruins3/laya_01.ls", Laya.Handler.create(this, () => {
                             this.progressBar.visible = false
                             Laya.Scene.open('entry/homeScene.json')
                         }), Laya.Handler.create(this, (p) => {

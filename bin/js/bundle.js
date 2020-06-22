@@ -83,7 +83,7 @@
       }
       onEnable() {
           super.onEnable();
-          let scene = Laya.stage.addChild(Laya.loader.getRes("res/ruins/laya_01.ls"));
+          let scene = Laya.stage.addChild(Laya.loader.getRes("res/ruins3/laya_01.ls"));
           var camera = scene.getChildByName("Main Camera");
           camera.addComponent(CameraMoveScript);
       }
@@ -405,7 +405,7 @@
                       this.btnGoto.setCallback(() => {
                           this.progressBar.visible = true;
                           this.btnGoto.toggleCooldown(true);
-                          Laya.loader.create("res/ruins/laya_01.ls", Laya.Handler.create(this, () => {
+                          Laya.loader.create("res/ruins3/laya_01.ls", Laya.Handler.create(this, () => {
                               this.progressBar.visible = false;
                               Laya.Scene.open('entry/homeScene.json');
                           }), Laya.Handler.create(this, (p) => {

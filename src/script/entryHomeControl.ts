@@ -15,7 +15,7 @@ export default class entryHomeUI extends Laya.Scene {
 
     public onEnable() {
         super.onEnable()
-        let scene = Laya.stage.addChild(Laya.loader.getRes("res/ruins/laya_01.ls")) as Laya.Scene3D;
+        let scene = Laya.stage.addChild(Laya.loader.getRes("res/ruins3/laya_01.ls")) as Laya.Scene3D;
         var camera: Laya.Camera = scene.getChildByName("Main Camera") as Laya.Camera;
         camera.addComponent(CameraMoveScript);
         // for (let index = 0; index < this.numChildren; index++) {
